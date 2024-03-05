@@ -1,0 +1,102 @@
+.works {
+	/* Add any styles specific to the container of the works */
+  }
+  
+  .works-body {
+	margin-bottom: 10px;
+  }
+  
+  .work {
+	display: flex;
+	width: 400px;
+	position: relative;
+	flex-direction: column;
+	margin-top: 20px;
+  }
+  
+  .works:hover {
+	background: #fafafa;
+	color: rgb(0, 0, 0);
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  .heading {
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+  }
+  
+  .work-image {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	outline: 6px solid white;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .work-title {
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--secondary-color);
+	padding-left: 10px;
+  }
+  
+  .dropdown {
+	font-size: 100%;
+	cursor: pointer;
+  }
+  
+  .details {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+	width: 100%;
+	padding-left: 0;
+	margin-bottom: 10px;
+	flex-wrap: nowrap;
+  }
+  
+  .work-subtitle {
+	position: absolute;
+	font-size: 12px;
+	color: var(--secondary-color);
+	white-space: nowrap;
+	padding-left: 10px;
+  }
+  
+  .work-duration {
+	font-size: 12px;
+	text-align: right;
+	color: var(--tertiary-color);
+margin-left: 250px;
+  }
+  
+  .ericsson-details {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 10;
+	font-size: 12px;
+	position: relative;
+	height: auto;
+	width: 100%; 
+	border-radius: 5px;
+	opacity: 0.8;
+  }
+  .ericsson-details:hover{
+	background-color: #f0f0f0;
+	font-color : black;
+	opacity: 1;
+  }
+  
+  .ericsson-details ul {
+	padding: 10;
+  }
+  .ericsson-details ul::marker {
+	opacity: 0.6;
+  }
+  .ericsson-details ul li {
+	margin-bottom: 5px;
+  }
+  
