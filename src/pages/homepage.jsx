@@ -93,7 +93,7 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									 Hi I am  Nandini Seth
 								</div>
 
 								<div className="subtitle homepage-subtitle">
